@@ -1,0 +1,151 @@
+.photo {
+  padding: 118px 45px 92px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.photo__item {
+  width: 100%;
+}
+
+.photo__item-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.photo__item-2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.photo__item-3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.photo__item-4 {
+  grid-row: 1;
+  grid-column: 4;
+}
+
+.photo__item-5 {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.photo__item-6 {
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.photo__item-7 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+.photo__item-8 {
+  grid-row: 2;
+  grid-column: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .photo {
+    padding: 64px 24px 88px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .photo__item-1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .photo__item-2 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .photo__item-3 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .photo__item-4 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .photo__item-5 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .photo__item-6 {
+    grid-row: 3;
+    grid-column: 2;
+  }
+
+  .photo__item-7 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .photo__item-8 {
+    grid-row: 4;
+    grid-column: 2;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo {
+    padding: 38px 16px 62px;
+    display: grid;
+    grid-template-columns: 288px;
+    grid-template-rows: 216px;
+    row-gap: 12px;
+  }
+
+  .photo__item-1 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .photo__item-2 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+
+  .photo__item-3 {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .photo__item-4 {
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  .photo__item-5 {
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .photo__item-6 {
+    grid-row: 6;
+    grid-column: 1;
+  }
+
+  .photo__item-7 {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  .photo__item-8 {
+    grid-row: 8;
+    grid-column: 1;
+  }
+}
