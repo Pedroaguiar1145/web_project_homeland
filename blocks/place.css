@@ -16,7 +16,7 @@
   margin-bottom: 80px;
 }
 
-.grid2 {
+.place-grid {
   grid-template-areas:
     "title website"
     "imagem p-top"
@@ -168,7 +168,7 @@
     height: 48px;
   }
 
-  .grid2 {
+  .place-grid {
     grid-template-areas:
       "title website"
       "imagem p-top"
